@@ -1,0 +1,74 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+.btn1 {
+  margin: 20px 0px 20px 0px;
+  border: none;
+  background-color: #45444b;
+  color: #b1abd9;
+  border-radius: 4px;
+}
+.apexcharts-menu.apexcharts-menu-open {
+  background-color: #282c34 !important;
+}
+.apexcharts-menu-item {
+  background-color: black !important;
+}
+.css-1lqe559-MuiDataGrid-root .MuiDataGrid-menuIcon {
+  color: white !important;
+}
+[type="button"]:not(:disabled),
+[type="reset"]:not(:disabled),
+[type="submit"]:not(:disabled),
+button:not(:disabled) {
+  color: white !important;
+}
+.css-rtrcn9-MuiTablePagination-root .MuiTablePagination-selectLabel {
+  color: white !important;
+}
+.css-levciy-MuiTablePagination-displayedRows {
+  color: white !important;
+}
+.css-194a1fa-MuiSelect-select-MuiInputBase-input.css-194a1fa-MuiSelect-select-MuiInputBase-input.css-194a1fa-MuiSelect-select-MuiInputBase-input {
+  color: white !important;
+}
+.css-pqjvzy-MuiSvgIcon-root-MuiSelect-icon {
+  color: white !important;
+}
+.css-zylse7-MuiButtonBase-root-MuiIconButton-root.Mui-disabled {
+  color: white !important;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
